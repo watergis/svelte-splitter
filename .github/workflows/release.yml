@@ -1,8 +1,7 @@
 name: Changesets
 on:
   push:
-    branches:
-      - develop
+    branches: [ develop ]
 
 env:
   CI: true
